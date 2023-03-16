@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header title renders correctly 1`] = `
+<Text
+  style={
+    {
+      "fontSize": 10,
+    }
+  }
+>
+  Home Screen
+</Text>
+`;
+
+exports[`Touchable Opacity Debounce renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "opacity": 1,
+    }
+  }
+>
+  <Text>
+    Hello World
+  </Text>
+</View>
+`;
+
+exports[`Wordlee Button renders correctly 1`] = `
+<View
+  style={
+    {
+      "paddingHorizontal": 20,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "aspectRatio": 5.454545454545454,
+        "backgroundColor": "red",
+        "borderColor": "#5544EE",
+        "borderRadius": 5,
+        "borderWidth": 2,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": undefined,
+          "fontSize": 20,
+        }
+      }
+    >
+      Hello
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Wordlee Header renders correctly 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "paddingTop": 70,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 60,
+            "fontWeight": "300",
+            "letterSpacing": -0.5,
+          },
+          {
+            "color": "#000000",
+          },
+          {
+            "color": "#5544EE",
+            "fontFamily": "Roboto-Bold",
+          },
+        ]
+      }
+    >
+      Wordleee
+    </Text>
+  </View>
+  <Text>
+    Hello World
+  </Text>
+</View>
+`;
